@@ -11,34 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ 
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-.Container {
-  width: 1000px;
-  max-width: 100%;
-  padding:0 20px;
-  margin: 0 auto;
-  border: 1px solid black;
-}
 
-.img {
-  width: 1000px;
-  height: 1000px;
-  max-width: 100%;
-}
-
-.form {
-  height: 50vh;
+.test {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin: auto;
-  
-  
-  
+  /* margin: 30px; */
+  justify-content: space-between;
+
+}
+
+/* Body {
+  background-image: url(./images/login_bg.jpg);
+  background-position: static;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.image {
+  background-image: url(./images/login_bg.jpg);
+  background-position: static;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
