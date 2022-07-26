@@ -1,7 +1,5 @@
-const Profile = require('./Profile');
-const exProfile = require("./exProfile");
-const gym = require("./Gym");
+const Profile = require("./Profile");
 
+const Gym = require("./Gym");
 
-
-module.exports = { Profile,gym,exProfile  };
+module.exports = { Profile, Gym };

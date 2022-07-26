@@ -1,0 +1,38 @@
+[
+    {
+      "gym_name": "24 Hour Fitness"
+    },
+    {
+      "gym_name": "Anytime Fitness"
+    },
+    {
+      "gym_name": "Crunch Fitness"
+    },
+    {
+        "gym_name": "Curves International"
+      },
+      {
+        "gym_name": "Equinox Fitness"
+      },
+      {
+        "gym_name": "Esporta Fitness"
+      },
+      {
+        "gym_name": "F45 Training"
+      },
+      {
+        "gym_name": "Gold's Gym"
+      },
+      {
+        "gym_name": "LA Fitness"
+      },
+      {
+        "gym_name": "Orangetheory Fitness"
+      },
+      {
+        "gym_name": "Planet Fitness"
+      },
+      {
+        "gym_name": "Pure Barre"
+      }
+  ]
