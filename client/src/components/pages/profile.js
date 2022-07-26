@@ -3,12 +3,12 @@ import React from "react";
 // import { useParams } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
 
-import { QUERY_PROFILES} from '../utils/queries';
+import { QUERY_PROFILES} from "../../../src/utils/queries";
 
 
-const profile = () => {
+const Profile = () => {
 	const { loading, data } = useQuery(QUERY_PROFILES);
-     const profile = data?.profile || {};
+     const profileData = data?.profile || {};
      
     if (loading) {
         return <div>Loading...</div>
@@ -16,11 +16,9 @@ const profile = () => {
 	return (
 		<div className="myProfile">
             <h1>Profile</h1>
-			<ul>{profile.map((userData)=>{
-                <li key={userData} >{userData}</li>
-            })}</ul>
+			<ul>{profileData.map((ud)=> <li key={ud.name} >{ud.name}</li>)}</ul>
 		</div>
 	);
 };
 
-export default profile;
+export default Profile;

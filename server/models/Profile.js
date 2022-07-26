@@ -5,13 +5,11 @@ const profileSchema = new Schema({
 	first_name: {
 		type: String,
 		required: true,
-
 		trim: true,
 	},
 	last_name: {
 		type: String,
 		required: true,
-
 		trim: true,
 	},
 	email: {
@@ -38,7 +36,7 @@ const profileSchema = new Schema({
 	},
 	city: {
 		type: String,
-		// required: true,
+		required: true,
 	},
 	state: {
 		type: String,
