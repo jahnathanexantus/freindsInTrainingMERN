@@ -17,6 +17,7 @@ import { ApolloCache } from '@apollo/client';
 
 const httpLink = createHttpLink({
   uri: '/graphql',
+  cache: new InMemoryCache(),
 });
 
 // Construct request middleware that will attach the JWT token to every request as an `authorization` header
@@ -41,7 +42,7 @@ const client = new ApolloClient({
 
 function App() {
   return (
-    <ApolloClient client={client}>
+    <ApolloProvider client={client}>
       <Router>
     <Header/>
     <Routes>
@@ -49,8 +50,7 @@ function App() {
       <Route path="/"
       element={<Home/>}/>
 
-      <Route path='/profile'
-      element={<Profile/>}/>
+      <Route path='/profile'element={<Profile/>}/>
 
       <Route path="/chat"
       element={<Chat/>}/>
@@ -58,9 +58,7 @@ function App() {
     </Routes>
       </Router>
       <Footer/>
-    </ApolloClient>
-    
-    
+    </ApolloProvider>
   );
 }
 
