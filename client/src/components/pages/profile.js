@@ -8,7 +8,7 @@ import { QUERY_PROFILES} from "../../utils/queries";
 
 const Profile = () => {
 	const { loading, data } = useQuery(QUERY_PROFILES);
-    const profileData = data?.profile || [];
+    const profileData = data?.profiles || [];
     
     if (loading) {
         return <div>Loading...</div>
