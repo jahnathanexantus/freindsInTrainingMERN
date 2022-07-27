@@ -3,7 +3,7 @@ import React from "react";
 // import { useParams } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
 
-import { QUERY_PROFILES} from "../../../src/utils/queries";
+import { QUERY_PROFILES} from "../../utils/queries";
 
 
 const Profile = () => {

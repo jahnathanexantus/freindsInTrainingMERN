@@ -12,12 +12,12 @@ const resolvers = {
 			return Profile.findOne({ _id: profileId });
 		},
 
-    gym: async ()=>{
-      return Gym.find();
-    },
-    gym: async (parent,{gymId})=> {
-      return Gym.findOne({_id:gymId})
-    }
+    // gym: async ()=>{
+    //   return Gym.find();
+    // },
+    // gym: async (parent,{gymId})=> {
+    //   return Gym.findOne({_id:gymId})
+    // }
 
 	},
 
