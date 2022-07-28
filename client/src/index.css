@@ -1,17 +1,19 @@
+:root {
+  --profilePicSize: 7rem;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
- 
 
 * {
   box-sizing: border-box;
@@ -23,7 +25,6 @@ code {
   display: flex;
   /* margin: 30px; */
   justify-content: space-between;
-
 }
 
 /* Body {
@@ -38,4 +39,64 @@ code {
   background-position: static;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.myProfile h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.profiles {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.profileCard {
+  width: 25rem;
+  height: 15rem;
+  border: 2px solid white;
+  border-radius: 0.3rem;
+  margin: 2rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  background-color: #eee;
+  color: #333;
+}
+
+.profileCardPhoto {
+  position: absolute;
+  height: var(--profilePicSize);
+  width: var(--profilePicSize);
+  border: 0.5rem solid white;
+  margin: auto;
+  top: calc((var(--profilePicSize) - (var(--profilePicSize) * 2)) / 2);
+  border-radius: 50%;
+  background-image: url("../public/images/anastase-maragos-DHsdSeCpjRU-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.profileCard * {
+  padding: 0.25rem;
+}
+
+.profileCard p {
+  margin-bottom: 0;
+}
+
+.profileCard h4 {
+  border-bottom: 1px solid black;
+  text-align: center;
+  background-color: #ccc;
+}
+
+.profileCardBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
 }
