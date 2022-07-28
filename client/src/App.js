@@ -14,6 +14,8 @@ import Home from "./components/pages/Home"
 import Chat from "./components/pages/Chat"
 import Profile from "./components/pages/Profile"
 import { ApolloCache } from '@apollo/client';
+import Login from "./components/pages/Login";
+import Signup from "./components/pages/Signup"
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -49,6 +51,12 @@ function App() {
 
       <Route path="/"
       element={<Home/>}/>
+
+      <Route path="/login"
+      element={<Login/>}/>
+
+<Route path="/signup"
+      element={<Signup/>}/>
 
       <Route path='/profile'element={<Profile/>}/>
 

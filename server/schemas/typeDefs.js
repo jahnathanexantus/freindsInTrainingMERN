@@ -13,9 +13,19 @@ const typeDefs = gql`
     availability:String 
   }
 
+  type Gym {
+    _id:ID
+    gym_name: String
+  }
+
   type Auth {
     token: ID!
     profile: Profile
+  }
+
+  type Query {
+    gyms: [Gym]!
+    gym(gymId: ID!): Gym
   }
 
   type Query {
@@ -24,7 +34,16 @@ const typeDefs = gql`
   }
 
   type Mutation {
-    addProfile(name: String!, email: String!, password: String!): Auth
+    addProfile(
+      first_name: String!
+      last_name: String!
+      email: String!
+      password: String!
+      gender: String!
+      fitness_level: String!
+      city: String!
+      state: String!
+      availability: String!): Auth
     login(email: String!, password: String!): Auth
 
     addSkill(profileId: ID!, skill: String!): Profile

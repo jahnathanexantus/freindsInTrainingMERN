@@ -1,7 +1,7 @@
 const { AuthenticationError } = require("apollo-server-express");
 const { Profile, Gym } = require("../models");
 const { signToken } = require("../utils/auth");
-const gymData = require("../seed/gymData.json")
+const gymData = require("../seed/gymData.json");
 const resolvers = {
 	Query: {
 		profiles: async () => {
@@ -12,13 +12,12 @@ const resolvers = {
 			return Profile.findOne({ _id: profileId });
 		},
 
-    // gym: async ()=>{
-    //   return Gym.find();
-    // },
-    // gym: async (parent,{gymId})=> {
-    //   return Gym.findOne({_id:gymId})
-    // }
-
+		gym: async () => {
+			return Gym.find();
+		},
+		gym: async (parent, { gymId }) => {
+			return Gym.findOne({ _id: gymId });
+		},
 	},
 
 	Mutation: {
