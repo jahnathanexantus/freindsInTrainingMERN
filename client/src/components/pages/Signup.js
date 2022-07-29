@@ -62,7 +62,7 @@ const Signup = () => {
 								<input
 									className="form-input"
 									placeholder="first_name"
-									name="name"
+									name="fist_name"
 									type="text"
 									value={formState.first_name}
 									onChange={handleChange}
@@ -75,6 +75,7 @@ const Signup = () => {
 									value={formState.last_name}
 									onChange={handleChange}
 								/>
+
 								<input
 									className="form-input"
 									placeholder="email"
@@ -91,6 +92,7 @@ const Signup = () => {
 									value={formState.password}
 									onChange={handleChange}
 								/>
+
 								<input
 									className="form-input"
 									placeholder="gender"
@@ -115,7 +117,7 @@ const Signup = () => {
 									value={formState.city}
 									onChange={handleChange}
 								/>
-                <input
+								<input
 									className="form-input"
 									placeholder="state"
 									name="state"
@@ -123,7 +125,7 @@ const Signup = () => {
 									value={formState.state}
 									onChange={handleChange}
 								/>
-                <input
+								<input
 									className="form-input"
 									placeholder="availability"
 									name="availability"

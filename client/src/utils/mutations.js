@@ -14,6 +14,7 @@ export const ADD_PROFILE = gql`
 	) {
 		addProfile(
 			first_name: $first_name
+			last_name: $last_name
 			email: $email
 			password: $password
 			gender: $gender
@@ -25,15 +26,7 @@ export const ADD_PROFILE = gql`
 			token
 			profile {
 				_id
-				first_name
-				last_name
-				email
-				password
-				gender
-				fitness_level
-				city
-				state
-				availability
+				name
 			}
 		}
 	}

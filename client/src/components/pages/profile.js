@@ -4,6 +4,7 @@ import React from "react";
 import { useQuery } from "@apollo/client";
 
 import { QUERY_PROFILES } from "../../utils/queries";
+import uuid from "react-uuid";
 
 const Profile = () => {
 	const { loading, data } = useQuery(QUERY_PROFILES);
@@ -14,20 +15,27 @@ const Profile = () => {
 	}
 	return (
 		<div className="myProfile">
-			<h1>Profile</h1>
-			{profileData.map((profile) => (
-				<div key={profile._id} className="card mb-3">
-					<h4 className="card-header bg-primary text-light p-2 m-0">
-						{profile.first_name} <br />
-						<span style={{ fontSize: "1rem" }}>
-							had this thought on {profile.last_name}
-						</span>
-					</h4>
-					<div className="card-body bg-light p-2">
-						<p>{profile.city}</p>
-					</div>
-				</div>
-			))}
+			<h1>Profiles</h1>
+			<div className="profiles">
+				{profileData.map((profile) => {
+					console.log(profile);
+					let { first_name, last_name, city, state, gender, fitness_level } =
+						profile;
+					return (
+						<div key={uuid()} className="profileCard">
+							<div className="profileCardPhoto"></div>
+							<div className="profileCardBody">
+								<p
+									style={{ fontWeight: "bold" }}
+								>{`${first_name} ${last_name}`}</p>
+								<p>{`Location: ${city}, ${state}`}</p>
+								<p>{`Gender: ${gender}`}</p>
+								<p>{`Fitness Level: ${fitness_level}`}</p>
+							</div>
+						</div>
+					);
+				})}
+			</div>
 		</div>
 	);
 };
