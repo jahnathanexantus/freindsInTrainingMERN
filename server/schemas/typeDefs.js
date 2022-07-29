@@ -14,7 +14,7 @@ const typeDefs = gql`
   }
 
   type Gym {
-    _id:ID
+    _id: ID
     gym_name: String
   }
 
