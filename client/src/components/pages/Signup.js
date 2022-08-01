@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useMutation } from "@apollo/client";
 import { ADD_PROFILE } from "../../utils/mutations";
 
-import Auth from "../../utils/auth";
+import Auth from "../../utils/Auth";
 
 const Signup = () => {
 	const [formState, setFormState] = useState({
@@ -40,7 +40,7 @@ const Signup = () => {
 				variables: { ...formState },
 			});
 
-			Auth.login(data.addProfile.token);
+			// Auth.login(data.addProfile.token);
 		} catch (e) {
 			console.error(e);
 		}
@@ -62,7 +62,7 @@ const Signup = () => {
 								<input
 									className="form-input"
 									placeholder="first_name"
-									name="fist_name"
+									name="first_name"
 									type="text"
 									value={formState.first_name}
 									onChange={handleChange}

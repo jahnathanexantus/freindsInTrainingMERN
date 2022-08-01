@@ -13,13 +13,13 @@ import Footer from "./components/Footer"
 import Home from "./components/pages/Home"
 import Chat from "./components/pages/Chat"
 import Profile from "./components/pages/Profile"
-import { ApolloCache } from '@apollo/client';
+// import { ApolloCache } from '@apollo/client';
 import Login from "./components/pages/Login";
 import Signup from "./components/pages/Signup"
 
 const httpLink = createHttpLink({
   uri: '/graphql',
-  cache: new InMemoryCache(),
+  
 });
 
 // Construct request middleware that will attach the JWT token to every request as an `authorization` header
@@ -39,6 +39,7 @@ const client = new ApolloClient({
   // Set up our client to execute the `authLink` middleware prior to making the request to our GraphQL API
   link: authLink.concat(httpLink),
   cache: new InMemoryCache(),
+  
 });
 
 
