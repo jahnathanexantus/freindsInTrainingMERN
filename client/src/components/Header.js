@@ -18,15 +18,10 @@ function Header() {
 						navbarScroll
 					>
 						<Nav.Link href="/">Home</Nav.Link>
-						<Nav.Link href="/login">login</Nav.Link>
-						<Nav.Link href="/signup">signup</Nav.Link>
+
 						<Nav.Link href="/logout">logout</Nav.Link>
 						<Nav.Link href="/profile">profile</Nav.Link>
-						
-							
-						
 					</Nav>
-					
 				</Navbar.Collapse>
 			</Container>
 		</Navbar>

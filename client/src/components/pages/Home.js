@@ -1,6 +1,9 @@
 import React from "react";
 import bkgImage from "../../images/login_bg.jpg";
 
+import Nav from "react-bootstrap/Nav";
+
+
 const Home = () => {
 	const bkgStyle = {
 		backgroundImage: `url(${bkgImage})`,
@@ -21,7 +24,8 @@ const Home = () => {
 					<input type="text" placeholder="email address" />
 					<input type="password" placeholder="password" />
 
-					<button>submit</button>
+					<Nav.Link href="/login">login</Nav.Link>
+					<Nav.Link href="/signup">get started</Nav.Link>
 				</div>
 
 				<div className="loginContainerRight">
