@@ -4,8 +4,16 @@ import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import Auth from '../utils/Auth';
 
 function Header() {
+	const logout = (event) => {
+		event.preventDefault();
+		Auth.logout();
+		window.location.reload()
+	  };
+
+
 	return (
 		<Navbar bg="light" expand="lg">
 			<Container fluid>
@@ -17,10 +25,12 @@ function Header() {
 						style={{ maxHeight: "100px" }}
 						navbarScroll
 					>
-						<Nav.Link href="/">Home</Nav.Link>
+						{Auth.loggedIn() ? (<Nav.Link onClick={logout}>logout</Nav.Link>) : (<Nav.Link href="/">logout</Nav.Link>)}
+						{console.log(Auth.loggedIn())}
+						
 
-						<Nav.Link href="/logout">logout</Nav.Link>
-						<Nav.Link href="/profile">profile</Nav.Link>
+						
+						
 					</Nav>
 				</Navbar.Collapse>
 			</Container>

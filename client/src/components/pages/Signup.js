@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 
 import { useMutation } from "@apollo/client";
 import { ADD_PROFILE } from "../../utils/mutations";
+import 'react-bootstrap'
 
-import Auth from "../../utils/Auth";
+// import Auth from "../../utils/Auth";
 
 const Signup = () => {
 	const [formState, setFormState] = useState({
@@ -54,8 +55,8 @@ const Signup = () => {
 					<div className="card-body">
 						{data ? (
 							<p>
-								Success! You may now head{"profile "}
-								<Link to="/profile">back to the homepage.</Link>
+								Success! You may now head{"home "}
+								<Link to="/home"> homepage.</Link>
 							</p>
 						) : (
 							<form onSubmit={handleFormSubmit}>

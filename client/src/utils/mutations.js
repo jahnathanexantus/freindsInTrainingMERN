@@ -29,13 +29,15 @@ export const ADD_SKILL = gql`
 `;
 
 export const LOGIN_USER = gql`
-	mutation login($email: String!, $password: String!) {
-		login(email: $email, password: $password) {
-			token
-			profile {
-				_id
-				name
-			}
-		}
+mutation login($email: String!, $password: String!) {
+	login(email: $email, password: $password) {
+	  token
+	  profile {
+		first_name
+		last_name
+		email
+		gender
+	  }
 	}
+  }
 `;

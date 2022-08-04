@@ -17,6 +17,8 @@ const Login = (props) => {
       ...formState,
       [name]: value,
     });
+  
+  
   };
 
   // submit form
@@ -41,7 +43,7 @@ const Login = (props) => {
   };
 
   return (
-    <main className="flex-row justify-center mb-4">
+    <main className="flex-row justify-center mb-4 login">
       <div className="col-12 col-lg-10">
         <div className="card">
           <h4 className="card-header bg-dark text-light p-2">Login</h4>
@@ -49,7 +51,7 @@ const Login = (props) => {
             {data ? (
               <p>
                 Success! You may now head{' '}
-                <Link to="/profile">back to the homepage.</Link>
+                <Link to="/home">back to the homepage.</Link>
               </p>
             ) : (
               <form onSubmit={handleFormSubmit}>

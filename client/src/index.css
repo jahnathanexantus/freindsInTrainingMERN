@@ -47,12 +47,15 @@ code {
 }
 
 .profiles {
+  
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .profileCard {
+  
   width: 25rem;
   height: 15rem;
   border: 2px solid white;
@@ -160,4 +163,42 @@ code {
   );
 
   display: flex;
+}
+
+.HmePage {
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+
+.NavContainer {
+  
+  margin-top: 300px;
+  
+}
+
+.flex-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card{
+  display: flex;
+  
+
+}
+
+.card-body input {
+  display: flex;
+  
 }
