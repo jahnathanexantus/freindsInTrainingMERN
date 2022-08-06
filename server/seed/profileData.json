@@ -1,7 +1,7 @@
 [
 	{
-		"first_name": "Sal",
-		"last_name": "Bologna",
+		"username": "Sal",
+
 		"email": "sal@gmail.com",
 		"password": "password12345",
 		"gender": "Male",
@@ -11,8 +11,8 @@
 		"availability": "Morning"
 	},
 	{
-		"first_name": "Tha",
-		"last_name": "Jarvis",
+		"username": "Tha",
+
 		"email": "radthad@hotmail.com",
 		"password": "password123",
 		"gender": "Male",
@@ -22,8 +22,8 @@
 		"availability": "Afternoon"
 	},
 	{
-		"first_name": "Tammy",
-		"last_name": "Smith",
+		"username": "Tammy",
+
 		"email": "tamm@hotmail.com",
 		"password": "password1234",
 		"gender": "Female",
@@ -33,8 +33,8 @@
 		"availability": "Evening"
 	},
 	{
-		"first_name": "Erin",
-		"last_name": "Aarons",
+		"username": "Erin",
+
 		"email": "erinaarons@gmail.com",
 		"password": "abcd1234",
 		"gender": "Female",
@@ -44,8 +44,8 @@
 		"availability": "Morning"
 	},
 	{
-		"first_name": "Don",
-		"last_name": "Fry",
+		"username": "Don",
+
 		"email": "donthedon@aol.com",
 		"password": "password1123",
 		"gender": "Male",
@@ -55,8 +55,8 @@
 		"availability": "Afternoon"
 	},
 	{
-		"first_name": "Debra",
-		"last_name": "Downing",
+		"username": "Debra",
+
 		"email": "debbiedowner@protonmail.com",
 		"password": "password1234",
 		"gender": "Female",
@@ -66,8 +66,8 @@
 		"availability": "Evening"
 	},
 	{
-		"first_name": "Greg",
-		"last_name": "Silverstein",
+		"username": "Greg",
+
 		"email": "greggg@yahoo.com",
 		"password": "password22424",
 		"gender": "Male",
@@ -77,8 +77,8 @@
 		"availability": "Morning"
 	},
 	{
-		"first_name": "Lacey",
-		"last_name": "Brown",
+		"username": "Lacey",
+
 		"email": "lacey@aol.com",
 		"password": "password553",
 		"gender": "Female",
@@ -88,8 +88,8 @@
 		"availability": "Afternoon"
 	},
 	{
-		"first_name": "Frank",
-		"last_name": "Reynolds",
+		"username": "Frank",
+
 		"email": "wolfcola@wolfcola.com",
 		"password": "frank123",
 		"gender": "Male",
@@ -99,8 +99,8 @@
 		"availability": "Evening"
 	},
 	{
-		"first_name": "Wayne",
-		"last_name": "Wayons",
+		"username": "Wayne",
+
 		"email": "wwayons@verizone.net",
 		"password": "password",
 		"gender": "Male",
@@ -110,8 +110,8 @@
 		"availability": "Afternoon"
 	},
 	{
-		"first_name": "Heather",
-		"last_name": "Reynolds",
+		"username": "Heather",
+
 		"email": "heatherr@gmail.com",
 		"password": "mynewpassword",
 		"gender": "Female",
@@ -121,8 +121,8 @@
 		"availability": "Evening"
 	},
 	{
-		"first_name": "Jayde",
-		"last_name": "Wisozk",
+		"username": "Jayde",
+
 		"email": "nvolkman@example.net",
 		"password": "90093142",
 		"gender": "Female",
@@ -132,8 +132,8 @@
 		"availability": "Afternoon"
 	},
 	{
-		"first_name": "Rosemarie",
-		"last_name": "Hickle",
+		"username": "Rosemarie",
+
 		"email": "trantow.letitia@example.org",
 		"password": "11895466",
 		"gender": "Female",
@@ -143,8 +143,8 @@
 		"availability": "Evening"
 	},
 	{
-		"first_name": "Justus",
-		"last_name": "Altenwerth",
+		"username": "Justus",
+
 		"email": "estevan.marks@example.com",
 		"password": "90601729",
 		"gender": "Female",
@@ -154,8 +154,7 @@
 		"availability": "Afternoon"
 	},
 	{
-		"first_name": "Luther",
-		"last_name": "Mertz",
+		"username": "Luther",
 		"email": "justice57@example.org",
 		"password": "89653708",
 		"gender": "Male",
@@ -165,8 +164,8 @@
 		"availability": "Afternoon"
 	},
 	{
-		"first_name": "Mariana",
-		"last_name": "Yost",
+		"username": "Mariana",
+
 		"email": "will.lockman@example.com",
 		"password": "37671754",
 		"gender": "Female",
@@ -176,8 +175,7 @@
 		"availability": "Evening"
 	},
 	{
-		"first_name": "Bobbie",
-		"last_name": "Raynor",
+		"username": "Bobbie",
 		"email": "shakira41@example.com",
 		"password": "35353911",
 		"gender": "Male",
@@ -187,8 +185,8 @@
 		"availability": "Evening"
 	},
 	{
-		"first_name": "Georgette",
-		"last_name": "Doyle",
+		"username": "Georgette",
+
 		"email": "emmanuel.o'keefe@example.org",
 		"password": "13032968",
 		"gender": "Female",
@@ -198,8 +196,7 @@
 		"availability": "Morning"
 	},
 	{
-		"first_name": "Felipe",
-		"last_name": "Johnston",
+		"username": "Felipe",
 		"email": "ernestine11@example.net",
 		"password": "43313631",
 		"gender": "Female",
@@ -209,8 +206,7 @@
 		"availability": "Afternoon"
 	},
 	{
-		"first_name": "Vicenta",
-		"last_name": "Lemke",
+		"username": "Vicenta",
 		"email": "temard@example.net",
 		"password": "26343594",
 		"gender": "Female",
@@ -220,8 +216,7 @@
 		"availability": "Morning"
 	},
 	{
-		"first_name": "Nova",
-		"last_name": "Hirthe",
+		"username": "Nova",
 		"email": "kertzmann.dustin@example.com",
 		"password": "80900245",
 		"gender": "Female",
@@ -231,8 +226,8 @@
 		"availability": "Evening"
 	},
 	{
-		"first_name": "Noemie",
-		"last_name": "Sporer",
+		"username": "Noemie",
+
 		"email": "constantin33@example.org",
 		"password": "64151694",
 		"gender": "Female",
@@ -242,8 +237,8 @@
 		"availability": "Afternoon"
 	},
 	{
-		"first_name": "Jaron",
-		"last_name": "Gulgowski",
+		"username": "Jaron",
+
 		"email": "ebony.lockman@example.org",
 		"password": "91445957",
 		"gender": "Female",
@@ -253,8 +248,8 @@
 		"availability": "Morning"
 	},
 	{
-		"first_name": "Cletus",
-		"last_name": "Wolff",
+		"username": "Cletus",
+
 		"email": "britney81@example.com",
 		"password": "14898181",
 		"gender": "Male",
@@ -264,8 +259,8 @@
 		"availability": "Evening"
 	},
 	{
-		"first_name": "Maximo",
-		"last_name": "McGlynn",
+		"username": "Maximo",
+
 		"email": "ugutmann@example.org",
 		"password": "92358805",
 		"gender": "Female",
@@ -275,8 +270,8 @@
 		"availability": "Evening"
 	},
 	{
-		"first_name": "Remington",
-		"last_name": "Fay",
+		"username": "Remington",
+
 		"email": "demarco70@example.net",
 		"password": "82566975",
 		"gender": "Male",
@@ -286,8 +281,8 @@
 		"availability": "Afternoon"
 	},
 	{
-		"first_name": "Keven",
-		"last_name": "Larkin",
+		"username": "Keven",
+
 		"email": "hgerlach@example.net",
 		"password": "22717696",
 		"gender": "Female",
@@ -297,8 +292,8 @@
 		"availability": "Afternoon"
 	},
 	{
-		"first_name": "Gussie",
-		"last_name": "Skiles",
+		"username": "Gussie",
+		"": "Skiles",
 		"email": "reilly.leonora@example.com",
 		"password": "14039843",
 		"gender": "Female",
@@ -308,8 +303,8 @@
 		"availability": "Afternoon"
 	},
 	{
-		"first_name": "Alfonso",
-		"last_name": "O'Reilly",
+		"username": "Alfonso",
+
 		"email": "fadel.arturo@example.net",
 		"password": "74907274",
 		"gender": "Female",
@@ -319,8 +314,8 @@
 		"availability": "Evening"
 	},
 	{
-		"first_name": "Renee",
-		"last_name": "Hane",
+		"username": "Renee",
+
 		"email": "sandy30@example.com",
 		"password": "37072087",
 		"gender": "Male",
@@ -330,8 +325,8 @@
 		"availability": "Morning"
 	},
 	{
-		"first_name": "Kaden",
-		"last_name": "Parker",
+		"username": "Kaden",
+
 		"email": "frida73@example.net",
 		"password": "60738837",
 		"gender": "Female",
@@ -341,8 +336,8 @@
 		"availability": "Afternoon"
 	},
 	{
-		"first_name": "Rudolph",
-		"last_name": "Jerde",
+		"username": "Rudolph",
+
 		"email": "emmerich.ceasar@example.org",
 		"password": "00992626",
 		"gender": "Male",
@@ -352,8 +347,8 @@
 		"availability": "Morning"
 	},
 	{
-		"first_name": "Brennan",
-		"last_name": "Heidenreich",
+		"username": "Brennan",
+
 		"email": "maxie95@example.org",
 		"password": "52370632",
 		"gender": "Female",
@@ -363,8 +358,8 @@
 		"availability": "Evening"
 	},
 	{
-		"first_name": "Jackson",
-		"last_name": "Kirlin",
+		"username": "Jackson",
+
 		"email": "alejandrin45@example.com",
 		"password": "32788082",
 		"gender": "Male",
@@ -374,8 +369,8 @@
 		"availability": "Morning"
 	},
 	{
-		"first_name": "Retta",
-		"last_name": "Tromp",
+		"username": "Retta",
+
 		"email": "yziemann@example.com",
 		"password": "01322149",
 		"gender": "Male",
@@ -385,8 +380,8 @@
 		"availability": "Morning"
 	},
 	{
-		"first_name": "Eino",
-		"last_name": "Okuneva",
+		"username": "Eino",
+
 		"email": "frami.laurence@example.org",
 		"password": "57909646",
 		"gender": "Male",
@@ -396,8 +391,8 @@
 		"availability": "Morning"
 	},
 	{
-		"first_name": "Sandra",
-		"last_name": "Schimmel",
+		"username": "Sandra",
+
 		"email": "block.dave@example.org",
 		"password": "04900658",
 		"gender": "Female",
@@ -407,8 +402,8 @@
 		"availability": "Morning"
 	},
 	{
-		"first_name": "Breana",
-		"last_name": "Gibson",
+		"username": "Breana",
+
 		"email": "martina46@example.com",
 		"password": "06080280",
 		"gender": "Male",
@@ -418,8 +413,8 @@
 		"availability": "Evening"
 	},
 	{
-		"first_name": "Jayde",
-		"last_name": "Gerhold",
+		"username": "Jayde",
+
 		"email": "samir70@example.org",
 		"password": "78758254",
 		"gender": "Male",
@@ -429,8 +424,8 @@
 		"availability": "Evening"
 	},
 	{
-		"first_name": "Jaren",
-		"last_name": "Moore",
+		"username": "Jaren",
+
 		"email": "hoppe.kay@example.org",
 		"password": "96322086",
 		"gender": "Female",
@@ -440,8 +435,8 @@
 		"availability": "Morning"
 	},
 	{
-		"first_name": "Cleve",
-		"last_name": "Abbott",
+		"username": "Cleve",
+
 		"email": "ruecker.erna@example.net",
 		"password": "78019041",
 		"gender": "Male",
@@ -451,8 +446,8 @@
 		"availability": "Evening"
 	},
 	{
-		"first_name": "Kaley",
-		"last_name": "Kozey",
+		"username": "Kaley",
+
 		"email": "lorenzo.murray@example.net",
 		"password": "93788281",
 		"gender": "Male",
@@ -462,8 +457,8 @@
 		"availability": "Morning"
 	},
 	{
-		"first_name": "Davin",
-		"last_name": "Nolan",
+		"username": "Davin",
+
 		"email": "guadalupe52@example.net",
 		"password": "84981233",
 		"gender": "Male",
@@ -473,8 +468,8 @@
 		"availability": "Evening"
 	},
 	{
-		"first_name": "Ellen",
-		"last_name": "Mante",
+		"username": "Ellen",
+
 		"email": "sprosacco@example.org",
 		"password": "17923392",
 		"gender": "Male",
@@ -484,8 +479,8 @@
 		"availability": "Morning"
 	},
 	{
-		"first_name": "Adriel",
-		"last_name": "Hagenes",
+		"username": "Adriel",
+
 		"email": "rnitzsche@example.com",
 		"password": "36743070",
 		"gender": "Female",
@@ -495,8 +490,8 @@
 		"availability": "Morning"
 	},
 	{
-		"first_name": "Consuelo",
-		"last_name": "Morar",
+		"username": "Consuelo",
+
 		"email": "hessel.braden@example.com",
 		"password": "09607569",
 		"gender": "Female",
@@ -506,8 +501,8 @@
 		"availability": "Evening"
 	},
 	{
-		"first_name": "Candace",
-		"last_name": "Cormier",
+		"username": "Candace",
+
 		"email": "chelsey.schmidt@example.com",
 		"password": "17830423",
 		"gender": "Male",
@@ -517,8 +512,8 @@
 		"availability": "Morning"
 	},
 	{
-		"first_name": "Forrest",
-		"last_name": "Kertzmann",
+		"username": "Forrest",
+
 		"email": "dina.witting@example.net",
 		"password": "73028154",
 		"gender": "Female",
@@ -528,8 +523,8 @@
 		"availability": "Evening"
 	},
 	{
-		"first_name": "Marcelle",
-		"last_name": "Konopelski",
+		"username": "Marcelle",
+
 		"email": "patrick.hilll@example.com",
 		"password": "02912479",
 		"gender": "Female",
@@ -539,8 +534,8 @@
 		"availability": "Afternoon"
 	},
 	{
-		"first_name": "Linnea",
-		"last_name": "Anderson",
+		"username": "Linnea",
+
 		"email": "felipa27@example.org",
 		"password": "34214848",
 		"gender": "Female",
@@ -550,8 +545,8 @@
 		"availability": "Evening"
 	},
 	{
-		"first_name": "Bethany",
-		"last_name": "Frami",
+		"username": "Bethany",
+
 		"email": "skylar.keeling@example.org",
 		"password": "59119272",
 		"gender": "Male",
@@ -561,8 +556,8 @@
 		"availability": "Morning"
 	},
 	{
-		"first_name": "Marjorie",
-		"last_name": "Williamson",
+		"username": "Marjorie",
+
 		"email": "vschaefer@example.org",
 		"password": "23753075",
 		"gender": "Male",
@@ -572,8 +567,8 @@
 		"availability": "Evening"
 	},
 	{
-		"first_name": "Lowell",
-		"last_name": "Parker",
+		"username": "Lowell",
+
 		"email": "frederik.rohan@example.net",
 		"password": "06002046",
 		"gender": "Male",
@@ -583,8 +578,8 @@
 		"availability": "Morning"
 	},
 	{
-		"first_name": "Lizzie",
-		"last_name": "Parisian",
+		"username": "Lizzie",
+
 		"email": "isabell52@example.net",
 		"password": "36730452",
 		"gender": "Male",
@@ -594,8 +589,8 @@
 		"availability": "Morning"
 	},
 	{
-		"first_name": "Adele",
-		"last_name": "O'Hara",
+		"username": "Adele",
+
 		"email": "katheryn.trantow@example.org",
 		"password": "94109078",
 		"gender": "Male",
@@ -605,8 +600,8 @@
 		"availability": "Morning"
 	},
 	{
-		"first_name": "Clara",
-		"last_name": "Jacobi",
+		"username": "Clara",
+
 		"email": "brown.isabel@example.org",
 		"password": "04101154",
 		"gender": "Female",
@@ -616,8 +611,8 @@
 		"availability": "Afternoon"
 	},
 	{
-		"first_name": "Leopoldo",
-		"last_name": "Klocko",
+		"username": "Leopoldo",
+
 		"email": "nkoch@example.com",
 		"password": "78396395",
 		"gender": "Female",
@@ -627,8 +622,8 @@
 		"availability": "Morning"
 	},
 	{
-		"first_name": "Josh",
-		"last_name": "Stamm",
+		"username": "Josh",
+
 		"email": "malachi.cormier@example.org",
 		"password": "74894659",
 		"gender": "Female",
@@ -638,8 +633,8 @@
 		"availability": "Evening"
 	},
 	{
-		"first_name": "Leone",
-		"last_name": "Lesch",
+		"username": "Leone",
+
 		"email": "ephraim.weimann@example.com",
 		"password": "37777241",
 		"gender": "Male",
@@ -649,8 +644,8 @@
 		"availability": "Afternoon"
 	},
 	{
-		"first_name": "Mathew",
-		"last_name": "Lakin",
+		"username": "Mathew",
+
 		"email": "alexzander.simonis@example.org",
 		"password": "56407716",
 		"gender": "Male",
@@ -660,8 +655,8 @@
 		"availability": "Afternoon"
 	},
 	{
-		"first_name": "Wellington",
-		"last_name": "Steuber",
+		"username": "Wellington",
+
 		"email": "aurelio06@example.net",
 		"password": "31982092",
 		"gender": "Female",

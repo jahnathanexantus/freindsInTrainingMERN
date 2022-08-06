@@ -3,21 +3,15 @@ import { Link } from "react-router-dom";
 
 import { useMutation } from "@apollo/client";
 import { ADD_PROFILE } from "../../utils/mutations";
-import 'react-bootstrap'
+import "react-bootstrap";
 
 // import Auth from "../../utils/Auth";
 
 const Signup = () => {
 	const [formState, setFormState] = useState({
-		first_name: "",
-		last_name: "",
+		username: "",
 		email: "",
 		password: "",
-		gender: "",
-		fitness_level: "",
-		city: "",
-		state: "",
-		availability: "",
 	});
 	const [addProfile, { error, data }] = useMutation(ADD_PROFILE);
 
@@ -43,7 +37,7 @@ const Signup = () => {
 
 			// Auth.login(data.addProfile.token);
 		} catch (e) {
-			console.error(e);
+			console.log(e);
 		}
 	};
 
@@ -62,18 +56,10 @@ const Signup = () => {
 							<form onSubmit={handleFormSubmit}>
 								<input
 									className="form-input"
-									placeholder="first_name"
-									name="first_name"
+									placeholder="username"
+									name="username"
 									type="text"
-									value={formState.first_name}
-									onChange={handleChange}
-								/>
-								<input
-									className="form-input"
-									placeholder="last_name"
-									name="last_name"
-									type="text"
-									value={formState.last_name}
+									value={formState.username}
 									onChange={handleChange}
 								/>
 
@@ -94,46 +80,6 @@ const Signup = () => {
 									onChange={handleChange}
 								/>
 
-								<input
-									className="form-input"
-									placeholder="gender"
-									name="gender"
-									type="text"
-									value={formState.gender}
-									onChange={handleChange}
-								/>
-								<input
-									className="form-input"
-									placeholder="fitness_level"
-									name="fitness_level"
-									type="text"
-									value={formState.fitness_level}
-									onChange={handleChange}
-								/>
-								<input
-									className="form-input"
-									placeholder="city"
-									name="city"
-									type="text"
-									value={formState.city}
-									onChange={handleChange}
-								/>
-								<input
-									className="form-input"
-									placeholder="state"
-									name="state"
-									type="text"
-									value={formState.state}
-									onChange={handleChange}
-								/>
-								<input
-									className="form-input"
-									placeholder="availability"
-									name="availability"
-									type="text"
-									value={formState.availability}
-									onChange={handleChange}
-								/>
 								<button
 									className="btn btn-block btn-info"
 									style={{ cursor: "pointer" }}

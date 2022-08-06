@@ -19,7 +19,7 @@ const Profile = () => {
       <div className="profiles">
         {profileData.map((profile) => {
           console.log(profile);
-          let { first_name, last_name, city, state, gender, fitness_level } =
+          let { username, city, state, gender, fitness_level } =
             profile;
           return (
             <div key={uuid()} className="profileCard">
@@ -27,10 +27,10 @@ const Profile = () => {
               <div className="profileCardBody">
                 <p
                   style={{ fontWeight: "bold" }}
-                >{`${first_name} ${last_name}`}</p>
+                >{`${username} `}</p>
                 <p>{`Location: ${city}, ${state}`}</p>
                 <p>{`Gender: ${gender}`}</p>
-                <p>{`Fitness Level: ${fitness_level}`}</p>
+                <p>{`Fitness_Level: ${fitness_level}`}</p>
               </div>
             </div>
           );

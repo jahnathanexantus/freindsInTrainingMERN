@@ -11,7 +11,8 @@ import Nav from "react-bootstrap/Nav";
 	<div className="HmePage">
 		<div className="NavContainer">
 		<Button href="/profile">profile</Button>{" "}
-		<Button href="/profile">Link</Button>
+		<Button href="/profile">Link</Button>{" "}
+		<Button href="/editprofile">editprofile</Button>{" "}
 		
 		</div>
 	</div>

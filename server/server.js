@@ -3,8 +3,11 @@ const { ApolloServer } = require("apollo-server-express");
 const path = require("path");
 const { authMiddleware } = require("./utils/auth");
 
+const fs = require("fs");
+
 const { typeDefs, resolvers } = require("./schemas");
 const db = require("./config/connection");
+
 
 const PORT = process.env.PORT || 3001;
 const app = express();
@@ -16,11 +19,6 @@ const server = new ApolloServer({
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
-
-// app.use((req, res, next) => {
-//   console.log(req.body);
-//   next();
-// });
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "../client/build")));

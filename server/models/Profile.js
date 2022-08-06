@@ -2,16 +2,12 @@ const { Schema, model } = require("mongoose");
 const bcrypt = require("bcrypt");
 
 const profileSchema = new Schema({
-	first_name: {
+	username: {
 		type: String,
 		required: true,
 		trim: true,
 	},
-	last_name: {
-		type: String,
-		required: true,
-		trim: true,
-	},
+	
 	email: {
 		type: String,
 		required: true,
@@ -25,26 +21,26 @@ const profileSchema = new Schema({
 	},
 	gender: {
 		type: String,
-		required: true,
+		// required: true,
 		// unique: true,
 		trim: true,
 	},
 	fitness_level: {
 		type: String,
-		required: true,
+		// required: true,
 		// unique: true,
 	},
 	city: {
 		type: String,
-		required: true,
+		// required: true,
 	},
 	state: {
 		type: String,
-		required: true,
+		// required: true,
 	},
 	availability: {
 		type: String,
-		required: true,
+		// required: true,
 	},
 	// skills: [
 	//   {
