@@ -4,7 +4,7 @@ import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import Auth from '../utils/Auth';
+import Auth from '../utils/auth';
 
 function Header() {
 	const logout = (event) => {
