@@ -5,7 +5,7 @@ import { useMutation } from "@apollo/client";
 import { ADD_PROFILE } from "../../utils/mutations";
 import "react-bootstrap";
 
-// import Auth from "../../utils/Auth";
+// import Auth from "../../utils/auth";
 
 const Signup = () => {
 	const [formState, setFormState] = useState({
