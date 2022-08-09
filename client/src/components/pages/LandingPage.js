@@ -21,8 +21,7 @@ const LandingPage = () => {
 					</div>
 
 					<p>Login to find the perfect workout partner.</p>
-					<input type="text" placeholder="email address" />
-					<input type="password" placeholder="password" />
+					
 
 					<Nav.Link href="/login">login</Nav.Link>
 					<Nav.Link href="/signup">get started</Nav.Link>

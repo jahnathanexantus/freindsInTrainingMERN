@@ -36,7 +36,7 @@ const profileSchema = new Schema({
 	},
 	state: {
 		type: String,
-		// required: true,
+		// required:true ,
 	},
 	availability: {
 		type: String,
